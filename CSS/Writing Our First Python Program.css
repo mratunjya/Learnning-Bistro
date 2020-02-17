@@ -1,0 +1,463 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.header {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Register {
+    float: right;
+    margin-top: 18%;
+    border: 1px solid rgba(253,109,104,1);
+    border-radius: 20%;
+    padding: 1% 1.8% 1% 1.8%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: rgba(253,109,104,1);
+    font-size: 3vw;
+}
+
+.Register:hover {
+    background-color: rgba(253,109,104,1);
+    color: white;
+    font-size: 3.5vw;
+    margin-top: 17.5%;
+}
+
+.Sign-in {
+    float: right;
+    text-decoration: none;
+    font-family: 'Patua One', cursive;
+    font-size: 3.5vw;
+    color: #656565;
+    margin-top: 18.5%;
+    margin-right: 2%;
+}
+
+.Sign-in:hover {
+    color: rgba(253,109,104,1);
+    font-size: 4vw;
+    margin-top: 18%;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.Python {
+    text-decoration: none;
+}
+
+.heading {
+    background-image: linear-gradient( 103.3deg,  rgba(253,109,104,1) 7.7%, rgba(248,150,105,1) 90.8% );
+    color: white;
+    padding: 5% 2%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 7vw;
+    text-align: center;
+    box-shadow: 0px 0px 2px rgba(253,109,104,1);
+}
+
+.heading p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+}
+
+.heading:hover {
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    box-shadow: 2px 2px 8px #8e2de2;
+}
+
+.Syllabus {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Course-Structure {
+    float: right;
+    background-image: linear-gradient( 103.3deg,  rgba(253,109,104,1) 7.7%, rgba(248,150,105,1) 90.8% );
+    color: white;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 5px 20px 20px;
+    width: 45%;
+}
+
+.Course-Structure:hover {
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    box-shadow: 2px 2px 8px #8e2de2;
+}
+
+.Course-Structure h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.6vw;
+}
+
+.Basics {
+    font-size: 2.6vw;
+    font-family: 'Sarina', cursive;
+    padding: 20px 15px 2px 25px;
+    background-image: linear-gradient(to top , rgb(255, 255, 255), rgb(250, 250, 250));
+    border-radius: 15px;
+    color: #261c1a;
+    box-shadow: 0px 0px 4px grey;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Basics:hover {
+    box-shadow: 1px 0px 8px #ebe8e6;
+}
+
+.Basics p {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    font-size: 2vw;
+    border-radius: 20px;
+    border: 1px solid #e3e5e6;
+}
+
+.Basics p:hover {
+    background-image: linear-gradient(to left, #8e2de2, #4a00e0);
+    color: white;
+    border: 1px solid #8e2de2;
+    box-shadow: 0px 0px 8px #8e2de2;
+}
+
+.Basics a {
+    text-decoration: none;
+    color: #261c1a;
+    background-image: linear-gradient(to bottom , rgb(255, 255, 255), rgb(250, 250, 250));
+}
+
+.Intermidiate {
+    font-size: 2.6vw;
+    font-family: 'Sarina', cursive;
+    padding: 20px 15px 2px 25px;
+    background-image: linear-gradient(to top , rgb(255, 255, 255), rgb(250, 250, 250));
+    border-radius: 15px;
+    color: #261c1a;
+    box-shadow: 0px 0px 4px grey;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Intermidiate:hover {
+    box-shadow: 1px 0px 8px #ebe8e6;
+}
+
+.Intermidiate p {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    font-size: 2vw;
+    border-radius: 20px;
+    border: 1px solid #e3e5e6;
+}
+
+.Intermidiate p:hover {
+    background-image: linear-gradient(to left, #8e2de2, #4a00e0);
+    color: white;
+    border: 1px solid #8e2de2;
+    box-shadow: 0px 0px 8px #8e2de2;
+}
+
+.Intermidiate a {
+    text-decoration: none;
+    color: #261c1a;
+    background-image: linear-gradient(to bottom , rgb(255, 255, 255), rgb(250, 250, 250));
+}
+
+.Writing-Structure {
+    float: left;
+    width: 45%;
+    background-image: linear-gradient( 250.3deg,  rgba(253,109,104,1) 7.7%, rgba(248,150,105,1) 90.8% );
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px 20px 20px;
+}
+
+.Writing-Structure:hover {
+    background-image: linear-gradient(to left, #8e2de2, #4a00e0);
+    box-shadow: -2px 2px 8px #8e2de2;
+}
+
+.Writing-Structure a {
+    text-decoration: none;
+    color: white;
+}
+
+.Writing-Structure h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.6vw;
+    margin-bottom: 43px;
+}
+
+.Structure {
+    background-image: linear-gradient(to top , rgb(255, 255, 255), rgb(250, 250, 250));
+    border-radius: 15px;
+    color: #261c1a;
+    box-shadow: 0px 0px 4px grey;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 25px 2px 15px;
+}
+
+.Structure:hover {
+    box-shadow: 1px 0px 8px #ebe8e6;
+}
+
+.Structure p {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    font-size: 2vw;
+    border-radius: 20px;
+    border: 1px solid #e3e5e6;
+}
+
+.Structure p:hover {
+    background-image: linear-gradient(to left, #8e2de2, #4a00e0);
+    color: white;
+    border: 1px solid #8e2de2;
+    box-shadow: 0px 0px 8px #8e2de2;
+}
+
+.Structure a {
+    text-decoration: none;
+    color: #261c1a;
+    background-image: linear-gradient(to bottom , rgb(255, 255, 255), rgb(250, 250, 250));
+}
+
+.matter {
+    background-image: linear-gradient( 183.3deg,  rgba(253,109,104,1) 7.7%, rgba(248,150,105,1) 90.8%);
+    padding: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.matter:hover {
+    background-image: linear-gradient(#8e2de2, #4a00e0, #8e2de2);
+}
+
+.Writing {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 25px;
+    font-family: Copperplate, 'Cinzel', serif;
+    font-size: 4.5vw;
+    color: #191919;
+    background-color: white;
+    padding: 2%;
+    padding-bottom: 0.5%;
+}
+
+.Writing h1 {
+    font-family: "Bookman Old Style", 'Gayathri', sans-serif;
+    font-size: 3vw;
+    font-weight: 100;
+    text-align: left;
+    color: rgb(183, 110, 11);
+    padding-bottom: 1px;
+    border-bottom: 1px solid  rgb(240, 148, 21);
+    margin-top: 40px;
+}
+
+.Writing p {
+    font-family: Bookerly, serif;
+    font-size: 2vw;
+}
+
+.Installing {
+    text-align: justify;
+    font-size: 2vw;
+}
+
+.Installing span {
+    font-family: "Courier New";
+    background: #191919;
+    color: white;
+    margin-left: 10%;
+    padding: 4px;
+}
+
+.Installing ul {
+    font-family: 'Literata', serif;
+    list-style-type: none;
+}
+
+.Installing li {
+    margin-bottom: 3%;
+    margin-left: 1.5%;
+}
+
+.Information {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Exo 2', sans-serif;
+    color: #afaeae;
+    font-size: 2vw;
+}
+
+.About-us {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.About-us p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.Contact {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+.Contact p {
+    font-size: 2vw;
+}
+
+abbr {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.love {
+    text-align: end;
+    margin-right: 2%;
+    font-size: 2.5vw;
+    color: #581845;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width: 1500px) {
+    #Logo {
+        width: 600px;
+    }
+    
+    .Register {
+    margin-top: 200px;
+    }
+
+    .Register:hover {
+        margin-top: 193px;
+    }
+
+    .Sign-in {
+        margin-top: 207px;
+    }
+
+    .Sign-in:hover {
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #Logo {
+        width: 50%;
+    }
+    
+    .Course-Structure h1 {
+        font-size: 2vw;
+    }
+    
+    .Basics p {
+        font-size: 1.6vw;
+    }
+    
+    .Intermidiate p {
+        font-size: 1.6vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Course-Structure {
+        width: 85%;
+        margin-top: 5%;
+    }
+    
+    .Course-Structure h1 {
+        font-size: 6vw;
+    }
+    
+    .Basics {
+        width: 90%;
+        font-size: 8vw;
+    }
+    
+    .Basics p {
+        font-size: 5vw;
+    }
+    
+    .Intermidiate p {
+        font-size: 5vw;
+    }
+    
+    .Intermidiate {
+        width: 90%;
+        font-size: 8vw;
+    }
+    
+    .Writing-Structure {
+        width: 85%;
+    }
+    
+    .Writing-Structure h1 {
+        font-size: 6vw;
+    }
+    
+    .Writing-Structure p {
+        font-size: 5vw;
+    }
+    
+    .Writing {
+        font-size: 8vw;
+    }
+
+    .Writing h1 {
+        font-size: 6.3vw;
+    }
+    
+    .Writing p {
+        font-size: 3.5vw;
+    }
+    
+    .Writing span {
+        font-size: 3vw;
+    }
+    
+    .Writing ul {
+        font-size: 3vw;
+    }
+    
+    .love {
+        font-size: 4vw;
+    }
+}

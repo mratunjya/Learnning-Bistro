@@ -1,0 +1,51 @@
+.Information {
+    width: 80%;
+    margin: 0 auto;
+    color: #AFAEAE;
+}
+
+.About-us {
+    width: 60%;
+    margin: 0 auto;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.About-us p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.Contact {
+    width: 30%;
+    margin: 0 auto;
+    float: right;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.Contact p {
+    font-size: 2vw;
+}
+
+abbr {
+    font-style: italic;
+}
+
+.love {
+    text-align: end;
+    margin-right: 2%;
+    font-size: 2.5vw;
+    color: #581845;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    
+    .love {
+        font-size: 4vw;
+    }
+    
+}

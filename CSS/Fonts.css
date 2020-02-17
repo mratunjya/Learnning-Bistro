@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Bookerly";
+    src: url('Fonts/Bookerly.ttf');
+}
+
+@font-face {
+    font-family: "Courier New";
+    src: url('Fonts/Courier%20New.ttf');
+}
+
+@font-face {
+    font-family: "Copperplate";
+    src: url('Fonts/Copperplate.ttf');
+}
+
+@font-face {
+    font-family: "Bookman Old Style";
+    src: url('Fonts/Bookman%20Old%20Style.ttf');
+}

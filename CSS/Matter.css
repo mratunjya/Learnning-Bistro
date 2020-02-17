@@ -1,0 +1,107 @@
+.matter {
+    float: left;
+    width: 75%;
+    background-image: linear-gradient( 103.3deg,  rgba(253,109,104,1) 7.7%, rgba(248,150,105,1) 90.8%);
+    padding: 20px 0;
+    border-radius: 0 20px 20px 0;
+}
+
+.matter:hover {
+    background-image: linear-gradient(#8e2de2, #4a00e0, #8e2de2);
+}
+
+.Writing {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 25px;
+    color: #191919;
+    background-color: white;
+    padding: 2%;
+    padding-bottom: 0.5%;
+    box-shadow: 0px 0px 4px grey;
+}
+
+.Writing:hover {
+    box-shadow: 1px 0px 8px #ebe8e6;
+}
+
+.Topic {
+    font-family: Copperplate, 'Cinzel', serif;
+    font-size: 3vw;
+    display: table;
+    margin: 0 auto;
+}
+
+.Writing h1 {
+    font-family: "Bookman Old Style", 'Gayathri', sans-serif;
+    font-size: 2.5vw;
+    font-weight: 100;
+    color: rgb(183, 110, 11);
+    padding-bottom: 1px;
+    border-bottom: 1px solid  rgb(240, 148, 21);
+    margin-top: 40px;
+}
+
+.Writing p {
+    font-family: Bookerly, serif;
+    font-size: 1.5vw;
+}
+
+.Writing a {
+    color: rgb(165, 28, 48);
+}
+
+.Writing a:hover {
+    color: rgb(254, 0, 62);
+}
+
+.Writing ::selection {
+    color: white;
+    background-color: rgb(165, 28, 48);
+}
+
+.Writing h1::selection {
+    background-color: rgb(254, 0, 62);
+}
+
+.Command {
+    font-family: "Courier New";
+}
+
+.Black {
+    background: #191919;
+    color: white;
+    margin-left: 12%;
+}
+
+.CS {
+    color: rgb(192, 0, 0);
+    margin-left: 5%;
+}
+
+.PDF {
+    color: rgb(112, 48, 160);
+}
+
+.Value {
+    color: rgb(0, 176, 80);
+}
+
+.Comment {
+    color: rgb(255, 0, 0);
+    margin-left: 5%;
+}
+
+.Output {
+    color: rgb(0, 112, 192);
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 3%;
+}
+
+li {
+    font-family: 'Literata', serif;
+    font-size: 1.6vw;   
+}
