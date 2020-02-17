@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+}
+.header-background {
+    background-image: linear-gradient(#F9F9F9, #FFFFFF);
+}
+
+.Register {
+    border: 1px solid #d8335b;
+    color: #d8335b;
+}
+
+.Register:hover {
+    background-color: #d8335b;
+    color: white;
+}
+
+.Sign-in {
+    color: #656565;
+}
+
+.Sign-in:hover {
+    color: #d8335b;
+}
+
+
+.h-r {
+    height: 2px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, #422d39 0%,#963062 23%,#d7335b 50%,#ed5339 75%,#eb9533 100%);
+}
+
+.Programming {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.Programming a {
+    text-decoration: none;
+    color: #656565;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 200%;
+}
+
+.Python {
+    float: left;
+    width: 45%;
+    margin-left:auto;
+    margin-right: auto;
+    color: #fcfaf9;
+}
+
+
+.Python p {
+    background-image: linear-gradient(to right, #191654, #43C6AC);
+    border-radius: 15px;
+    font-size: 125%;
+    text-align: justify;
+    padding: 25px;
+}
+
+.Python p:hover {
+    box-shadow: 2px 2px 50px rgba(67, 198, 172, 0.5);
+}
+
+.Python h1:hover {
+    background: -webkit-linear-gradient(0deg, #43c6ac, #191654);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 8px 8px rgba(25, 22, 84, 0.3);
+}
+
+.Java {
+    float: right;
+    width: 45%;
+    margin-left:auto;
+    margin-right: auto;
+    color: #ffeaee;
+}
+
+.Java p {
+    background-image: linear-gradient(to left, #240b36, #c31432);
+    border-radius: 15px;
+    font-size: 125%;
+    text-align: justify;
+    padding: 25px;
+}
+
+.Java p:hover {
+    box-shadow: 2px 2px 50px rgba(195, 20, 50, 0.5);
+}
+
+.Java h1:hover {
+    background: -webkit-linear-gradient(180deg, #c31432, #240b36);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 8px 8px rgba(36, 11, 54, 0.3);
+}
+
+.Programming-References {
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    color: #d7eff7;
+}
+
+.Programming-References a {
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+.Programming-References p {
+    background-image: linear-gradient(to left, #0F2027, #203A43, #0F2027);
+    border-radius: 15px;
+    font-size: 125%;
+    text-align: justify;
+    padding: 25px;
+}
+
+.Programming-References h2:hover {
+    background: -webkit-linear-gradient(180deg, #203A43, #0F2027, #203A43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 8px 8px rgba(17, 35, 42, 0.3);
+}
+
+.Programming-References p:hover {
+    box-shadow: 2px 2px 50px rgba(32, 58, 67, 0.5)
+}
+
+.h-r- {
+    height: 5px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to left, #422d39 0%,#963062 23%,#d7335b 50%,#ed5339 75%,#eb9533 100%);
+}
+
+.Information {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Exo 2', sans-serif;
+    color: #afaeae;
+    font-size: 2vw;
+}
+
+.About-us {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.About-us p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.4vw;
+    text-align: justify;
+}
+
+.Contact {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+.Contact p {
+    font-size: 1.4vw;
+}
+
+abbr {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.love {
+    text-align: end;
+    margin-right: 2%;
+    font-size: 2.5vw;
+    color: #581845;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+    .Python {
+        width: 48%;
+    }
+
+    .Java {
+        width: 48%;
+    }
+    
+    .love {
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .Python {
+        width: 100%;
+        float: none;
+    }
+
+    .Java {
+        margin-top: 100px;
+        width: 100%;
+        float: none;
+    }
+    
+    .Programming-References {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Programming-References a {
+    font-size: 8vw;
+    }
+    
+    .Programming h1 {
+        font-size: 15vw;
+    }
+}

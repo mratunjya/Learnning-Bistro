@@ -11,6 +11,10 @@ body {
     margin-right: auto;
 }
 
+#Logo {
+     width: 33%;
+}
+
 .Register {
     float: right;
     margin-top: 18%;

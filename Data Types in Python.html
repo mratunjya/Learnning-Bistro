@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Learning Bistro - Python (Data Types in Python)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="CSS/Fonts.css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2|Montserrat:200|Open+Sans:300|Patua+One|Comfortaa|Tajawal|Roboto|Sarina|Montserrat+Alternates:300|Nunito:200|Gayathri|Raleway:300|Literata&display|Cinzel=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/vil2ttu.css">
+        
+        <link rel="stylesheet" type="text/css" href="CSS/Header.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Syllabus.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Matter.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Contact.css">
+    </head>
+    <body>
+        <div class="header">
+            <a href="Home.html"><img src="Images/Learning%20Bistro%20Python.png" alt="Learning Bistro - Peerless for Python and Java" title="Learning Bistro - Peerless for Python and Java" id="Logo"></a>
+            <a href="Registration.html" class="Register">Register</a>
+            <a href="Sign in.html" class="Sign-in">Sign in</a>
+        </div>
+        <br><br>
+        <a href="Python.html" class="Python">
+            <div class="heading">
+                Python Tutorial for Beginners
+                <br>
+                <p>Python Tutorial for Beginners is an amazing tutorial series to understand the basics of Python language and step wise progress to the advanced topics. OOP concepts are covered in details and explained with examples in the tutorial series.</p>
+            </div>
+            <br>
+        </a>
+        <br><br>
+        <div class="Syllabus">
+            <div class="Structure-left">
+                <a href="#Data-Types-in-Python"><h1>Data Types in Python &darr;</h1></a>
+                <div class="Internal-Structure">
+                    <a href="#Comments"><p>Comments in Python</p></a>
+                    <a href="#Docstring"><p>Docstring</p></a>
+                    <a href="#Pandas"><p>Installing Pandas </p></a>
+                    <a href="#Xlrd"><p>Installing Xlrd</p></a>
+                    <a href="#Matplotlib"><p>Installing Matplotlib</p></a>
+                    <a href="#Verifying"><p>Verifying Installed Packages</p></a>
+                    <a href="#Writing"><p>Writing Our First Python Program</p></a>
+                    <a href="#Execution"><p>Execution of Python Program</p></a>
+                    <a href="#Help"><p>Getting Help in Python</p></a>
+                    <a href="#Documentation"><p>Getting Python Documentation Help</p></a>
+                </div>
+            <br><br>
+            <h1>Course Structure &darr;</h1>
+                <div class="Internal-Structure">
+                    <span class="Internal-Heading">Basics</span>
+                    <a href="Introduction%20to%20Python.html"><p>Introduction to Python</p></a>
+                    <a href="Writing%20Our%20First%20Python%20Program.html"><p>Writing Our First Python Program</p></a>
+                    <p style="background-image: linear-gradient(to left, #8e2de2, #4a00e0); color: white; border: 1px solid #8e2de2; box-shadow: 0px 0px 8px #8e2de2; cursor: none;">Data Types in Python</p>
+                    <a href="Operators%20in%20Python.html"><p>Operators in Python</p></a>
+                    <a href="Input%20and%20Output.html"><p>Input and Output</p></a>
+                </div>
+                <br>
+                <div class="Internal-Structure">
+                    <span class="Internal-Heading">Intermidiate</span>
+                    <a href="Control%20Statements.html"><p>Control Statements</p></a>
+                    <a href="Arrays%20in%20Python"><p>Arrays in Python</p></a>
+                </div>
+            </div>
+            <div class="matter">
+                <div class="Writing" id="Data-Types-in-Python">
+                    <span class="Topic">DATA TYPES IN PYTHON</span>
+                    <div id="Comments">
+                        <h1>Comments in Python</h1>
+                        <ol>
+                            <li>Single line Comments — These comments starts with a Symbol (#).</li>
+                            <div class="Command Eg">E.g.: <span class="Comment"># This is my First Comment in Python</span></div>
+                            
+                            <li>Multi line Comments — <span class="Command Eg" style="margin-left: 0.5%">E.g.: <span class="Comment"># I can write a multi-line comment<br> # by using '#' in the starting of every line.<br> # I’m Learning Python after learning java.</span></span></li>
+                            
+                            <div class="OR">OR</div>
+                            
+                            <div class="Command Eg">
+                                E.g.: <span class="Value">"""<br> I can write the above multi-line comment with the use of """ (Triple double quotes) or ''' (Triple single quotes) in the beginning and ending of the block <br>"""</span>
+                            </div>
+                            
+                            <div class="OR">OR</div>
+                            
+                            <div class="Command Eg">
+                                E.g.: <span class="Value">'''<br> I can write the above multi-line comment with the use of """ (Triple double quotes) or ''' (Triple single quotes) in the beginning and ending of the block <br>''' </span>
+                            </div>
+                            
+                            <p><em><span class="Comment">&#42;</span> Multi-line comments are also known as block comments.</em></p>
+                        </ol> 
+                    </div>
+                    
+                    <div id="Docstring">
+                        <h1>Docstring</h1>
+                        <p>Python supports only single line comments. Multi line comments are not available in Python. It means <span class="Value Command">"""</span> and <span class="Value Command ">'''</span> are not multi-line comments.</p>
+                        <p>So, using <span class="Value Command">"""</span> and <span class="Value Command ">'''</span> are not recommended for comments since they internally occupy memory and would waste time of the interpreter since the interpreter has to check them.</p>
+                        <p>The use of <span class="Value Command">"""</span> and <span class="Value Command ">'''</span> is to create an API (Application Programming Interface) document file. An API file is a text or HTML file that contains description of all the features of software, language or a product. When a new software is created it is the duty of the programmer to provide an API for that software. It is like a user manual or Help file.</p>
+                        <p>If we write <span class="Value Command">"""</span> or <span class="Value Command ">'''</span> as first statements in a module, then these strings are called documentation strings or docstrings.</p>
+                        <h2>Example Program — </h2>
+                        <div class="Command Mgl-6">
+                            <span class="Comment"># program with two functions</span> <br>
+                            <span class="Kw">def</span> add(x,y): <br>
+                            <div class="Mgl-6"><span class="Value">""" <br>
+                                This Function takes two number and finds their sum. It displays the sum as result.<br>
+                                """ <br></span>
+                                <span class="PDF">print</span>(<span class="Value">"Sum="</span>,(x+y))<br><br>
+                            </div>
+                            <span class="Kw">def</span> message(): <br>
+                            <div class="Mgl-6"><span class="Value">''' <br>
+                                This function displays a message. This is a welcome message to the user.<br>
+                                '''<br></span>
+                                <span class="PDF">print</span>("Welcome to Python") <br><br>
+                            </div>
+                            
+                            # now call the functions <br>
+                            message() <br>
+                            add(10,25)
+                        </div>
+                        <p>Now save it and run the above program — </p>
+                        <div class="Command Output">
+                            Welcome to Python <br>Sum= 35 
+                        </div>
+                        <p>Now run it again to create an API with the following commands — </p>
+                        <span class="Command Black">Python –m pydoc –w example</span>
+                        <h3>Explanation of <span class="Command Black" style="margin: 0; font-style: normal">Python –m pydoc –w example</span> </h3>
+                        <table>
+                            <tr>
+                                <td class="Command">-m</td>
+                                <td class="Command" style="width: 5%; text-align-last: right;">:</td>
+                                <td class="p">Represents a module</td>
+                            </tr>
+                            <tr>
+                                <td class="Command">pydoc</td>
+                                <td class="Command" style="width: 5%; text-align-last: right;">:</td>
+                                <td class="p">It is a module which is used by the python interpreter to create a documentation for a python Program.</td>
+                            </tr>
+                            <tr>
+                                <td class="Command">-w</td>
+                                <td class="Command" style="width: 5%; text-align-last: right;">:</td>
+                                <td class="p">Indicates that an HTML file is to be created.</td>
+                            </tr>
+                            <tr>
+                                <td class="Command">Example</td>
+                                <td class="Command" style="width: 5%; text-align-last: right;">:</td>
+                                <td class="p">It is the name of the program file.</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p>Here is how an API look like.</p>
+                        <a href="Images/API.png"><img src="Images/API.png" width="100%"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear-float"></div>
+        <br><br><br><br>
+        <div class="clear-float"></div>
+        <div class="Information">
+            <div class="About-us">
+                <h1>About Us</h1>
+                <p>Learning Bistro is Providing the Lecture notes for Python and Java.</p>
+                <p><abbr title="The Council for the Indian School Certificate Examinations">CISCE </abbr>students from Class IX to XII must go through the Java topics, as our Syllabus pattern is based on the latest CISCE Syllabus.</p>
+                <p><abbr title="Central Board of Secondary Education">CBSE</abbr> students from Class XI and XII must go througn Python, it is written efficently with sample codes.</p>
+                <p>Students can also check for Programming References for both the languages separately.</p>
+                <p>Learning Bistro is also helpful for Undergraduates.</p>
+                <p>Feel free to ask for any sample program which is not given in the Programming References.</p>
+            </div>
+            <div class="Contact">
+                <h1>Contact</h1>
+                <p>learningbistro@gmail.com</p>
+            </div>
+        </div>
+        <div class="clear-float"></div>
+        <a href="https://www.linkedin.com/in/mratunjyashankhdhar/"  style="text-decoration: none"><p class="love">Made with <span style="color: #FF5733">&hearts;</span> by Mratunjya Shankhdhar</p></a>
+    </body>
+</html>

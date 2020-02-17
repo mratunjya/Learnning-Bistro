@@ -42,9 +42,34 @@
     margin-top: 40px;
 }
 
+.Writing h2 {
+    font-family: "Bookman Old Style", 'Gayathri', sans-serif;
+    font-size: 2.2vw;
+    font-weight: 100;
+    color: rgb(183, 110, 11);
+    padding-bottom: 1px;
+    margin-top: 30px;
+}
+
+.Writing h3 {
+    font-family: "Bookman Old Style", 'Gayathri', sans-serif;
+    font-size: 2vw;
+    font-weight: 100;
+    color: rgb(121, 73, 8);
+    padding-bottom: 1px;
+    margin-top: 30px;
+    font-style: italic;
+}
+
 .Writing p {
     font-family: Bookerly, serif;
     font-size: 1.5vw;
+}
+
+.p {
+    font-family: Bookerly, serif;
+    font-size: 1.5vw;
+    text-align: justify;
 }
 
 .Writing a {
@@ -64,14 +89,44 @@
     background-color: rgb(254, 0, 62);
 }
 
+table {
+    border-spacing: 12px;
+}
+
+.Mgl-5 {
+    margin-left: 5%;
+}
+
+.Mgl-6 {
+    margin-left: 6%;
+}
+
 .Command {
     font-family: "Courier New";
+    font-size: 1.7vw;
+    font-weight: 600;
 }
 
 .Black {
     background: #191919;
     color: white;
     margin-left: 12%;
+}
+
+.Kw {
+    color: rgb(255, 192, 0);
+}
+
+.Eg {
+    margin-left: 12%;
+}
+
+.OR {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2vw;
+    margin: 10px 0;
 }
 
 .CS {
@@ -89,7 +144,6 @@
 
 .Comment {
     color: rgb(255, 0, 0);
-    margin-left: 5%;
 }
 
 .Output {
@@ -104,4 +158,28 @@ ul {
 li {
     font-family: 'Literata', serif;
     font-size: 1.6vw;   
+}
+
+@media only screen and (max-width: 1000px) {
+    .Writing p, .p {
+        font-size: 22px;
+    }
+    
+    .Command {
+        font-size: 24px;
+    }
+    
+    .Writing h1 {
+        font-size: 30px;
+    }
+    
+    .Writing h2 {
+        font-size: 26px;
+    }
+    
+    .Writing h3 {
+        font-size: 24px;
+    }
+    
+    
 }
