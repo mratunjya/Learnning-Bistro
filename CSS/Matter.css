@@ -1,3 +1,8 @@
+::selection {
+  background-color: #a51c30;
+  color: white;
+}
+
 body {
   cursor: default;
 }
@@ -9,12 +14,11 @@ body {
 .left-25 {
   float: left;
   width: 25%;
-  height: 720px;
 }
 
-.right-70 {
+.right-73 {
   float: right;
-  width: 70%;
+  width: 73%;
 }
 
 .no-float {
@@ -34,7 +38,7 @@ body {
 
 /* width */
 .side-nav::-webkit-scrollbar {
-  width: 20px;
+  width: 4%;
 }
 
 /* Track */
@@ -50,6 +54,7 @@ body {
 
 /* Handle on hover */
 .side-nav::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0, #8e2de2);
 }
 
 .Unit {
@@ -67,188 +72,33 @@ body {
     border: 1px solid #e3e5e6;
 }
 
-/*.matter {
-    width: 75%;
-    background-image: linear-gradient( 103.3deg,  rgba(253,109,104,1) 7.7%, rgba(248,150,105,1) 90.8%);
-    padding: 20px 0;
-    border-radius: 0 20px 20px 0;
+.Chapter {
+  padding: 10px;
 }
 
-.matter:hover {
-    background-image: linear-gradient(#8e2de2, #4a00e0, #8e2de2);
+.Chapter h1 {
+  font-family: 'Baloo Paaji 2', cursive;
+  text-align: center;
+  font-size: 4vw;
+  border-bottom: 2px solid #282C34;
 }
 
-.Writing {
-    width: 95%;
-    margin: 0 auto;
-    border-radius: 25px;
-    color: #191919;
-    background-color: white;
-    padding: 2%;
-    padding-bottom: 0.5%;
-    box-shadow: 0px 0px 4px grey;
+.Chapter h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 3.5vw;
+  padding-top: 20px;
 }
 
-.Writing:hover {
-    box-shadow: 1px 0px 8px #ebe8e6;
+.Chapter li {
+  padding: 10px;
 }
 
-.Topic {
-    font-family: Copperplate, 'Cinzel', serif;
-    font-size: 3vw;
-    display: table;
-    margin: 0 auto;
+.Chapter p, li {
+  font-family: 'Headland One', serif;
+  line-height: 200%;
+  font-size: 20px;
 }
 
-.Writing h1 {
-    font-family: "Bookman Old Style", 'Gayathri', sans-serif;
-    font-size: 2.5vw;
-    font-weight: 100;
-    color: rgb(183, 110, 11);
-    padding-bottom: 1px;
-    border-bottom: 1px solid  rgb(240, 148, 21);
-    margin-top: 40px;
+.Chapter hr {
+  border: 1px solid #282C34;
 }
-
-.Writing h2 {
-    font-family: "Bookman Old Style", 'Gayathri', sans-serif;
-    font-size: 2.2vw;
-    font-weight: 100;
-    color: rgb(183, 110, 11);
-    padding-bottom: 1px;
-    margin-top: 30px;
-}
-
-.Writing h3 {
-    font-family: "Bookman Old Style", 'Gayathri', sans-serif;
-    font-size: 2vw;
-    font-weight: 100;
-    color: rgb(121, 73, 8);
-    padding-bottom: 1px;
-    margin-top: 30px;
-    font-style: italic;
-}
-
-.Writing p {
-    font-family: Bookerly, serif;
-    font-size: 1.5vw;
-}
-
-.p {
-    font-family: Bookerly, serif;
-    font-size: 1.5vw;
-    text-align: justify;
-}
-
-.Writing a {
-    color: rgb(165, 28, 48);
-}
-
-.Writing a:hover {
-    color: rgb(254, 0, 62);
-}
-
-.Writing ::selection {
-    color: white;
-    background-color: rgb(165, 28, 48);
-}
-
-.Writing h1::selection {
-    background-color: rgb(254, 0, 62);
-}
-
-table {
-    border-spacing: 12px;
-}
-
-.Mgl-5 {
-    margin-left: 5%;
-}
-
-.Mgl-6 {
-    margin-left: 6%;
-}
-
-.Command {
-    font-family: "Courier New";
-    font-size: 1.7vw;
-    font-weight: 600;
-}
-
-.Black {
-    background: #191919;
-    color: white;
-    margin-left: 12%;
-}
-
-.Kw {
-    color: rgb(255, 192, 0);
-}
-
-.Eg {
-    margin-left: 12%;
-}
-
-.OR {
-    font-family: 'Montserrat Alternates', sans-serif;
-    text-align: center;
-    font-weight: 600;
-    font-size: 2vw;
-    margin: 10px 0;
-}
-
-.CS {
-    color: rgb(192, 0, 0);
-    margin-left: 5%;
-}
-
-.PDF {
-    color: rgb(112, 48, 160);
-}
-
-.Value {
-    color: rgb(0, 176, 80);
-}
-
-.Comment {
-    color: rgb(255, 0, 0);
-}
-
-.Output {
-    color: rgb(0, 112, 192);
-}
-
-ul {
-    list-style-type: square;
-    margin-left: 3%;
-}
-
-li {
-    font-family: 'Literata', serif;
-    font-size: 1.6vw;
-}
-
-@media only screen and (max-width: 1000px) {
-    .Writing p, .p {
-        font-size: 22px;
-    }
-
-    .Command {
-        font-size: 24px;
-    }
-
-    .Writing h1 {
-        font-size: 30px;
-    }
-
-    .Writing h2 {
-        font-size: 26px;
-    }
-
-    .Writing h3 {
-        font-size: 24px;
-    }
-
-
-}
-*/
