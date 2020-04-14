@@ -1,5 +1,73 @@
+body {
+  cursor: default;
+}
+
 .matter {
-    float: left;
+  width: 100%;
+}
+
+.left-25 {
+  float: left;
+  width: 25%;
+  height: 720px;
+}
+
+.right-70 {
+  float: right;
+  width: 70%;
+}
+
+.no-float {
+  clear: both;
+}
+
+.side-nav {
+  overflow-y: scroll;
+  border-bottom-right-radius: 10px;
+  background-image: linear-gradient( 160.3deg,  rgba(253,109,104,1) 7.7%, rgba(248,150,105,1) 90.8% );
+  height: 100%;
+}
+
+.side-nav:hover {
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+/* width */
+.side-nav::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+.side-nav::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+.side-nav::-webkit-scrollbar-thumb {
+  background-image: linear-gradient( 70.3deg,  rgba(253,109,104,1) 7.7%, rgba(248,150,105,1) 90.8% );
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.side-nav::-webkit-scrollbar-thumb:hover {
+}
+
+.Unit {
+  margin: 5px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to top , rgb(255, 255, 255), rgb(250, 250, 250));
+}
+
+.Unit p {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    padding: 10px 20px;
+    font-size: 2vw;
+    border-radius: 20px;
+    border: 1px solid #e3e5e6;
+}
+
+/*.matter {
     width: 75%;
     background-image: linear-gradient( 103.3deg,  rgba(253,109,104,1) 7.7%, rgba(248,150,105,1) 90.8%);
     padding: 20px 0;
@@ -157,29 +225,30 @@ ul {
 
 li {
     font-family: 'Literata', serif;
-    font-size: 1.6vw;   
+    font-size: 1.6vw;
 }
 
 @media only screen and (max-width: 1000px) {
     .Writing p, .p {
         font-size: 22px;
     }
-    
+
     .Command {
         font-size: 24px;
     }
-    
+
     .Writing h1 {
         font-size: 30px;
     }
-    
+
     .Writing h2 {
         font-size: 26px;
     }
-    
+
     .Writing h3 {
         font-size: 24px;
     }
-    
-    
+
+
 }
+*/

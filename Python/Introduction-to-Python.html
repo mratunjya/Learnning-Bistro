@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Learning Bistro - Python</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="/CSS/Header.css">
+        <link rel="stylesheet" type="text/css" href="/CSS/Footer.css">
+        <link rel="stylesheet" type="text/css" href="/CSS/Course Structure.css">
+        <link rel="stylesheet" type="text/css" href="/CSS/Matter.css">
+        <link rel="stylesheet" type="text/css" href="/CSS/Scroll Bar.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Exo+2|Montserrat:200|Open+Sans:300|Patua+One|Comfortaa|Tajawal|Roboto|Sarina|Montserrat+Alternates:300|Nunito:200|Gayathri|Raleway:300|Literata&display|Cinzel=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/vil2ttu.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Fonts.css">
+    </head>
+    <body>
+      <div class="header">
+          <a href="/"><img src="/Images/Logo.png" alt="Learning Bistro - Peerless for Python and Java" title="Learning Bistro - Peerless for Python and Java" id="Logo"></a>
+          <a href="Registration.html" class="Register">Register</a>
+          <a href="Sign in.html" class="Sign-in">Sign in</a>
+      </div>
+
+      <a href="/Python" class="Intro">
+        <div class="heading">
+          <h1>Python Tutorial for Beginners</h1>
+          <p>Python Tutorial for Beginners is an amazing tutorial series to understand the basics of Python language and step wise progress to the advanced topics. OOP concepts are covered in details and explained with examples in the tutorial series.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="matter">
+      <div class="side-nav left-25">
+        <p style="color: white; text-align: center; font-family: 'Sarina', cursive; font-size: 3vw;">Navigation</p>
+        <div class="Unit">
+          <a href="Introduction-to-Python.html">Introduction to Python</a>
+            <div class="Sub-topic">
+                <a href="History and Development of Python.html"><p>History And Development of Python</p></a>
+                <a href="What can Python do.html"><p>What can Python do&#x3f;</p></a>
+                <a href="Why Python.html"><p>Why Python&#x3f;</p></a>
+            </div>
+        </div>
+      </div>
+      <div class="right-70">
+
+      </div>
+      <br class="no-float">
+
+      <div style="width: 80%; float: right;">
+        <div class="Information">
+            <div class="About-us">
+                <h1>About Us</h1>
+                <p>Learning Bistro is Providing the Lecture notes for Python and Java.</p>
+                <p><abbr title="The Council for the Indian School Certificate Examinations">CISCE </abbr>students from Class IX to XII must go through the Java topics, as our Syllabus pattern is based on the latest CISCE Syllabus.</p>
+                <p><abbr title="Central Board of Secondary Education">CBSE</abbr> students from Class XI and XII must go througn Python, it is written efficently with sample codes.</p>
+                <p>Students can also check for Programming References for both the languages separately.</p>
+                <p>Learning Bistro is also helpful for Undergraduates.</p>
+                <p>Feel free to ask for any sample program which is not given in the Programming References.</p>
+            </div>
+            <div class="Contact">
+                <h1>Contact</h1>
+                <p>learningbistro@gmail.com</p>
+            </div>
+        </div>
+        <div class="clear-float"></div>
+        <a href="https://www.linkedin.com/in/mratunjyashankhdhar/"  style="text-decoration: none"><p class="love">Made with <span style="color: #FF5733">&hearts;</span> by Mratunjya Shankhdhar</p></a>
+      </div>
+
+
+
+
+
+        <script>
+        x = document.getElementsByClassName('side-nav');
+        console.log(x[0].offsetTop);
+        h = x[0].offsetTop;
+        window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+          if (document.body.scrollTop >= h || document.documentElement.scrollTop >= h) {
+            x[0].style.position = "fixed";
+            x[0].style.top = 0;
+          }
+          else {
+            x[0].style.position = "static";
+          }
+        }
+      </script>
+    </body>
+</html>
