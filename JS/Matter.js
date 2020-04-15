@@ -34,6 +34,27 @@ document.onreadystatechange = () => {
           h2[i].style.paddingTop = "20px"
         }
       }
+
+      if (window.innerWidth <= 720) {
+        a = document.getElementsByClassName('left');
+        a[0].style.display = "none";
+
+        a = document.getElementsByClassName('right');
+        a[0].style.width = "97%";
+        a[0].style.margin = "0 auto"
+
+        y[0].style.width = "100%";
+      }
+      else {
+        a = document.getElementsByClassName('left');
+        a[0].style.display = "block";
+
+        a = document.getElementsByClassName('right');
+        a[0].style.width = "73%";
+        a[0].style.margin = "0"
+
+        y[0].style.width = "77%";
+      }
     }
     window.scrollBy(0, 1);
   }
