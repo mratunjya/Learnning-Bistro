@@ -6,6 +6,9 @@ function sidenavclose () {
   document.getElementById('Chapter').style.width = '98%';
   document.getElementById('Chapter').style.float = 'none';
   document.getElementById('Chapter').style.margin = '0 auto';
+
+  document.getElementById('top-nav').style.width = '103.04%';
+  document.getElementById('top-nav').style.marginLeft = '-2.04%';
 }
 
 function sidenavshow () {
@@ -16,6 +19,36 @@ function sidenavshow () {
   document.getElementById('Chapter').style.width = '73%';
   document.getElementById('Chapter').style.float = 'right';
   document.getElementById('Chapter').style.margin = '0';
+
+  document.getElementById('top-nav').style.width = '75%';
+  document.getElementById('top-nav').style.marginLeft = '-2%';
+}
+
+function loaded () {
+  x = document.getElementsByClassName('side-nav');
+  y = document.getElementsByClassName('right-73');
+  h = y[0].offsetTop;
+
+  window.onscroll = function() {myFunction()};
+
+  function myFunction() {
+    if (document.body.scrollTop >= h || document.documentElement.scrollTop >= h) {
+      x[0].style.position = "fixed";
+      x[0].style.overflowY = "scroll";
+      x[0].style.top = 0;
+
+      document.getElementById('top-nav').style.display = 'block';
+      document.getElementById('btn-close').style.display = 'block';
+    }
+    else {
+      x[0].style.position = "static";
+      x[0].style.overflowY = "hidden";
+      document.getElementById('top-nav').style.display = 'none';
+      document.getElementById('btn-close').style.display = 'none';
+    }
+  }
+
+  window.scrollBy(0, 1);
 }
 
 /*document.onreadystatechange = () => {

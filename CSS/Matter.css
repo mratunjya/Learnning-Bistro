@@ -34,7 +34,6 @@ body {
 }
 
 .side-nav {
-  border-bottom-right-radius: 20px;
   background-image: linear-gradient( 160.3deg,  rgba(253,109,104,1) 7.7%, rgba(248,150,105,1) 90.8% );
   height: 100%;
 }
@@ -44,28 +43,29 @@ body {
 }
 
 /* width */
-/*.side-nav::-webkit-scrollbar {
-  width: 4%;
-}*/
+.side-nav::-webkit-scrollbar {
+  width: 3%;
+}
 
 /* Track */
-/*.side-nav::-webkit-scrollbar-track {
-  border-radius: 10px;
-}*/
+.side-nav::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
 
 /* Handle */
-/*.side-nav::-webkit-scrollbar-thumb {
+.side-nav::-webkit-scrollbar-thumb {
   background-image: linear-gradient( 70.3deg,  rgba(253,109,104,1) 7.7%, rgba(248,150,105,1) 90.8% );
-  border-radius: 10px;
-}*/
+  border-radius: 3px;
+}
 
 /* Handle on hover */
-/*.side-nav::-webkit-scrollbar-thumb:hover {
-  background-image: linear-gradient(to right, #8e2de2, #4a00e0, #8e2de2);
+.side-nav::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient( 110.7deg,  rgba(253,109,104,1) 7.7%, rgba(248,150,105,1) 90.8% );
 }
-*/
 
 .btn-close {
+  display: none;
+  opacity: 0.9;
   float: right;
   background-color: #282C34;
   margin: 10px;
@@ -96,6 +96,7 @@ body {
 }
 
 .btn-show {
+  opacity: 0.9;
   display: none;
   float: left;
   background-color: #282C34;
@@ -122,16 +123,22 @@ body {
 }
 
 .top-nav {
+  display: none;
+  position: fixed;
+  top: 0;
   text-align: center;
   background-image: linear-gradient(to top , rgb(255, 255, 255), rgb(250, 250, 250));
-  display: none;
-  width: 77%;
+  width: 75%;
   margin-left: -2%;
   box-shadow: 0px 4px 8px #f7f7f7;
 }
 
 .top-nav:hover {
   box-shadow: 0px 8px 16px #fedbda;
+}
+
+#Horizontal-logo {
+  width: 20%;
 }
 
 .Unit {
@@ -267,6 +274,10 @@ body {
   .Unit p {
     padding: 10px;
   }
+
+  #Horizontal-logo {
+    width: 60%
+  }
 }
 
 @media Only Screen and (max-width: 720px) {
@@ -279,8 +290,24 @@ body {
     float: none;
   }
 
+  .top-nav {
+    width: 100%;
+  }
+
   .btn-show {
     display: block;
+  }
+
+  #Horizontal-logo {
+    width: 40%
+  }
+
+  .Chapter h1 {
+    font-size: 6vw;
+  }
+
+  .Chapter h2 {
+    font-size: 4.5vw;
   }
 }
 
@@ -301,5 +328,21 @@ body {
 
   .Python-Unit p {
     font-weight: bold;
+  }
+
+  #Horizontal-logo {
+    width: 90%;
+  }
+
+  .top-nav .sign-in {
+    font-size: 15px;
+  }
+
+  .Chapter h1 {
+    font-size: 8vw;
+  }
+
+  .Chapter h2 {
+    font-size: 6vw;
   }
 }

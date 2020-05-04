@@ -18,7 +18,7 @@
 
         <script src="https://kit.fontawesome.com/952d5d526e.js" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body onload="loaded()">
       <div class="header">
           <a href="../"><img src="../Images/Logo.png" alt="Learning Bistro - Peerless for Python and Java" title="Learning Bistro - Peerless for Python and Java" id="Logo"></a>
           <a href="Registration.html" class="Register">Register</a>
@@ -35,7 +35,7 @@
 
     <div class="matter">
       <div class="side-nav left-25" id="side-nav">
-        <button type="button" name="side-nav-close" class="btn-close" onclick="sidenavclose()"><i class="fas fa-times"></i></button>
+        <button type="button" name="side-nav-close" id="btn-close" class="btn-close" onclick="sidenavclose()"><i class="fas fa-times"></i></button>
         <p style="color: white; text-align: center; font-family: 'Sarina', cursive; font-size: 3vw;">Navigation</p>
         <div class="Unit">
           <a href="#Introduction-to-Python">Introduction to Python</a>
@@ -91,7 +91,16 @@
         </div>
       </div>
       <div class="right-73" id="Chapter">
-        <button type="button" name="side-nav-close" class="btn-show" id="btn-show" onclick="sidenavshow()"><i class="fas fa-angle-double-right"></i></button>
+        <div class="top-nav" id="top-nav">
+          <table align=center>
+            <th>
+              <td width=10%><button type="button" name="side-nav-close" class="btn-show" id="btn-show" onclick="sidenavshow()"><i class="fas fa-angle-double-right"></i></button></td>
+              <td><a href="../"><img src="../Images/Logo Horizontal.png" id="Horizontal-logo"></a></td>
+              <td width=10%><a class="sign-in" href="Sign in.html" style="color: #656565; text-decoration: none; font-family: 'Patua One', cursive;">Sign in</a></td>
+              <td width=10% style="padding: 20px;"><a href="../Registration.html" style="border: 1px solid rgba(253,109,104,1); border-radius: 20%; font-family: 'Montserrat', sans-serif; text-decoration: none; color: rgba(253,109,104,1); font-size: 20px; padding: 5px;">Register</a></td>
+            </th>
+          </table>
+        </div>
         <div class="Chapter">
           <div id="Introduction-to-Python">
             <h1>Introduction to Python</h1>
@@ -142,25 +151,27 @@
       </div>
 
       <br class="no-float">
-      <div class="Information">
-          <div class="About-us">
-              <h1>About Us</h1>
-              <p>Learning Bistro is Providing the Lecture notes for Python and Java.</p>
-              <p><abbr title="The Council for the Indian School Certificate Examinations">CISCE </abbr>students from Class IX to XII must go through the Java topics, as our Syllabus pattern is based on the latest CISCE Syllabus.</p>
-              <p><abbr title="Central Board of Secondary Education">CBSE</abbr> students from Class XI and XII must go througn Python, it is written efficently with sample codes.</p>
-              <p>Students can also check for Programming References for both the languages separately.</p>
-              <p>Learning Bistro is also helpful for Undergraduates.</p>
-              <p>Feel free to ask for any sample program which is not given in the Programming References.</p>
-          </div>
-          <div class="Contact">
-              <h1>Contact</h1>
-              <p>learningbistro@gmail.com</p>
-          </div>
+      <div style="width: 80%; float: right">
+        <div class="Information">
+            <div class="About-us">
+                <h1>About Us</h1>
+                <p>Learning Bistro is Providing the Lecture notes for Python and Java.</p>
+                <p><abbr title="The Council for the Indian School Certificate Examinations">CISCE </abbr>students from Class IX to XII must go through the Java topics, as our Syllabus pattern is based on the latest CISCE Syllabus.</p>
+                <p><abbr title="Central Board of Secondary Education">CBSE</abbr> students from Class XI and XII must go througn Python, it is written efficently with sample codes.</p>
+                <p>Students can also check for Programming References for both the languages separately.</p>
+                <p>Learning Bistro is also helpful for Undergraduates.</p>
+                <p>Feel free to ask for any sample program which is not given in the Programming References.</p>
+            </div>
+            <div class="Contact">
+                <h1>Contact</h1>
+                <p>learningbistro@gmail.com</p>
+            </div>
+        </div>
+        <div class="clear-float"></div>
+        <a href="https://www.linkedin.com/in/mratunjyashankhdhar/" target="blank"  style="text-decoration: none"><p class="love">Made with <img src="../SVG/Heart-svg.svg" alt="Google" width=2.5%> by Mratunjya Shankhdhar</p></a>
+        <br><br>
+        <a href="https://www.google.com/search?q=Mratunjya+Shankhdhar&oq=Mratunjya+Shankhdhar" target="blank"  style="text-decoration: none; "><p class="love" style="text-align:center;">Search <img src="../SVG/Google-svg.svg" alt="Google" width=2.5%> for Mratunjya Shankhdhar</p></a>
       </div>
-      <div class="clear-float"></div>
-      <a href="https://www.linkedin.com/in/mratunjyashankhdhar/" target="blank"  style="text-decoration: none"><p class="love">Made with <img src="../SVG/Heart-svg.svg" alt="Google" width=2.5%> by Mratunjya Shankhdhar</p></a>
-      <br><br>
-      <a href="https://www.google.com/search?q=Mratunjya+Shankhdhar&oq=Mratunjya+Shankhdhar" target="blank"  style="text-decoration: none; "><p class="love" style="text-align:center;">Search <img src="../SVG/Google-svg.svg" alt="Google" width=2.5%> for Mratunjya Shankhdhar</p></a>
     </body>
     <script src="../JS/Matter.js" charset="utf-8"></script>
 </html>
