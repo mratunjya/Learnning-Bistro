@@ -6,28 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Mratunjya Shankhdhar">
 
-        <link rel="stylesheet" type="text/css" href="/CSS/Header.css">
-        <link rel="stylesheet" type="text/css" href="/CSS/Footer.css">
-        <link rel="stylesheet" type="text/css" href="/CSS/Course Structure.css">
-        <link rel="stylesheet" type="text/css" href="/CSS/Matter.css">
-        <link rel="stylesheet" type="text/css" href="/CSS/Scroll Bar.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Header.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Footer.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Course Structure.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Matter.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/Scroll Bar.css">
 
         <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2:wght@600|Comfortaa:wght@500|Headland+One|Exo+2|Montserrat:200|Open+Sans:300|Patua+One|Comfortaa|Tajawal|Roboto|Sarina|Montserrat+Alternates:300|Nunito:200|Gayathri|Raleway:300|Literata&display|Cinzel=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/vil2ttu.css">
         <link rel="stylesheet" type="text/css" href="CSS/Fonts.css">
 
         <script src="https://kit.fontawesome.com/952d5d526e.js" crossorigin="anonymous"></script>
-
-        <script type="text/javascript" src="/JS/Matter.js"></script>
     </head>
     <body>
       <div class="header">
-          <a href="/"><img src="/Images/Logo.png" alt="Learning Bistro - Peerless for Python and Java" title="Learning Bistro - Peerless for Python and Java" id="Logo"></a>
+          <a href="../"><img src="../Images/Logo.png" alt="Learning Bistro - Peerless for Python and Java" title="Learning Bistro - Peerless for Python and Java" id="Logo"></a>
           <a href="Registration.html" class="Register">Register</a>
           <a href="Sign in.html" class="Sign-in">Sign in</a>
       </div>
 
-      <a href="/Python" class="Intro">
+      <a href="../Python" class="Intro">
         <div class="heading">
           <h1>Python Tutorial for Beginners</h1>
           <p>Python Tutorial for Beginners is an amazing tutorial series to understand the basics of Python language and step wise progress to the advanced topics. OOP concepts are covered in details and explained with examples in the tutorial series.</p>
@@ -36,7 +34,8 @@
     </div>
 
     <div class="matter">
-      <div class="side-nav left-25 left">
+      <div class="side-nav left-25" id="side-nav">
+        <button type="button" name="side-nav-close" class="btn-close" onclick="sidenavclose()"><i class="fas fa-times"></i></button>
         <p style="color: white; text-align: center; font-family: 'Sarina', cursive; font-size: 3vw;">Navigation</p>
         <div class="Unit">
           <a href="#Introduction-to-Python">Introduction to Python</a>
@@ -89,18 +88,8 @@
         </a>
       </div>
 
-      <div class="right-73 right">
-        <div class="top-nav">
-          <table valign="center">
-            <tr>
-              <td style="width: 10%;" disabled><i class="fas fa-ellipsis-v"></i></td>
-              <td style="text-align: left;"><img src="/Images/Logo Horizontal.png" width=50% alt="Learning Bistro - Peerless for Python and Java" title="Learning Bistro - Peerless for Python and Java"></td>
-              <td><a href="Registration.html" class="Register" style="float: none; margin-top: 0;">Register</a></td>
-              <td style="width: 25%"><a href="Sign in.html" class="Sign-in" style="float: none; margin-top: 0;">Sign in</a></td>
-            </tr>
-          </table>
-        </div>
-
+      <div class="right-73" id="Chapter">
+        <button type="button" name="side-nav-close" class="btn-show" id="btn-show" onclick="sidenavshow()"><i class="fas fa-angle-double-right"></i></button>
         <div class="Chapter">
           <div id="Introduction-to-Python">
             <h1>Introduction to Python</h1>
@@ -151,25 +140,25 @@
       </div>
 
       <br class="no-float">
-      <div style="width: 80%; float: right;">
-        <div class="Information">
-            <div class="About-us">
-                <h1>About Us</h1>
-                <p>Learning Bistro is Providing the Lecture notes for Python and Java.</p>
-                <p><abbr title="The Council for the Indian School Certificate Examinations">CISCE </abbr>students from Class IX to XII must go through the Java topics, as our Syllabus pattern is based on the latest CISCE Syllabus.</p>
-                <p><abbr title="Central Board of Secondary Education">CBSE</abbr> students from Class XI and XII must go througn Python, it is written efficently with sample codes.</p>
-                <p>Students can also check for Programming References for both the languages separately.</p>
-                <p>Learning Bistro is also helpful for Undergraduates.</p>
-                <p>Feel free to ask for any sample program which is not given in the Programming References.</p>
-            </div>
-            <div class="Contact">
-                <h1>Contact</h1>
-                <p>learningbistro@gmail.com</p>
-            </div>
-        </div>
-        <div class="clear-float"></div>
-        <a href="https://www.linkedin.com/in/mratunjyashankhdhar/"  style="text-decoration: none"><p class="love">Made with <span style="color: #FF5733">&hearts;</span> by Mratunjya Shankhdhar</p></a>
+      <div class="Information">
+          <div class="About-us">
+              <h1>About Us</h1>
+              <p>Learning Bistro is Providing the Lecture notes for Python and Java.</p>
+              <p><abbr title="The Council for the Indian School Certificate Examinations">CISCE </abbr>students from Class IX to XII must go through the Java topics, as our Syllabus pattern is based on the latest CISCE Syllabus.</p>
+              <p><abbr title="Central Board of Secondary Education">CBSE</abbr> students from Class XI and XII must go througn Python, it is written efficently with sample codes.</p>
+              <p>Students can also check for Programming References for both the languages separately.</p>
+              <p>Learning Bistro is also helpful for Undergraduates.</p>
+              <p>Feel free to ask for any sample program which is not given in the Programming References.</p>
+          </div>
+          <div class="Contact">
+              <h1>Contact</h1>
+              <p>learningbistro@gmail.com</p>
+          </div>
       </div>
+      <div class="clear-float"></div>
+      <a href="https://www.linkedin.com/in/mratunjyashankhdhar/" target="blank"  style="text-decoration: none"><p class="love">Made with <img src="../SVG/Heart-svg.svg" alt="Google" width=2%> by Mratunjya Shankhdhar</p></a>
+      <br><br>
+      <a href="https://www.google.com/search?q=Mratunjya+Shankhdhar&oq=Mratunjya+Shankhdhar" target="blank"  style="text-decoration: none; "><p class="love" style="text-align:center;">Search <img src="../SVG/Google-svg.svg" alt="Google" width=2%> for Mratunjya Shankhdhar</p></a>
     </body>
-    <script type="text/javascript" src="/JS/Matter.js"></script>
+    <script src="../JS/Matter.js" charset="utf-8"></script>
 </html>

@@ -1,4 +1,24 @@
-document.onreadystatechange = () => {
+function sidenavclose () {
+  document.getElementById('side-nav').style.display = 'none';
+
+  document.getElementById('btn-show').style.display = 'block';
+
+  document.getElementById('Chapter').style.width = '98%';
+  document.getElementById('Chapter').style.float = 'none';
+  document.getElementById('Chapter').style.margin = '0 auto';
+}
+
+function sidenavshow () {
+  document.getElementById('side-nav').style.display = 'block';
+
+  document.getElementById('btn-show').style.display = 'none';
+
+  document.getElementById('Chapter').style.width = '73%';
+  document.getElementById('Chapter').style.float = 'right';
+  document.getElementById('Chapter').style.margin = '0';
+}
+
+/*document.onreadystatechange = () => {
   if (document.readyState === 'complete') {
     x = document.getElementsByClassName('side-nav');
     y = document.getElementsByClassName('top-nav');
@@ -59,3 +79,4 @@ document.onreadystatechange = () => {
     window.scrollBy(0, 1);
   }
 }
+*/
