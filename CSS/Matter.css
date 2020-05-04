@@ -133,6 +133,24 @@ body {
   box-shadow: 0px 4px 8px #f7f7f7;
 }
 
+.top-nav .sign-in {
+  font-size: 20px;
+  color: #656565;
+}
+
+.top-nav .sign-in:hover {
+  color: rgb(253, 109, 104)
+}
+
+.top-nav .register {
+  color: rgba(253,109,104,1);
+}
+
+.top-nav .register:hover {
+  background-color: rgba(253,109,104,1);
+  color: white;
+}
+
 .top-nav:hover {
   box-shadow: 0px 8px 16px #fedbda;
 }
@@ -164,12 +182,14 @@ body {
   text-align: center;
   font-size: 4vw;
   border-bottom: 2px solid #282C34;
+  margin: 0;
 }
 
 .Chapter h2 {
   font-family: 'Comfortaa', cursive;
   font-size: 3.5vw;
   padding-top: 20px;
+  margin: 0;
 }
 
 .Chapter li {

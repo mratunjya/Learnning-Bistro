@@ -9,6 +9,9 @@ function sidenavclose () {
 
   document.getElementById('top-nav').style.width = '103.04%';
   document.getElementById('top-nav').style.marginLeft = '-2.04%';
+
+  document.getElementById('Footer').style.width = '100%';
+  document.getElementById('Footer').style.float = 'none';
 }
 
 function sidenavshow () {
@@ -22,6 +25,9 @@ function sidenavshow () {
 
   document.getElementById('top-nav').style.width = '75%';
   document.getElementById('top-nav').style.marginLeft = '-2%';
+
+  document.getElementById('Footer').style.width = '80%';
+  document.getElementById('Footer').style.float = 'right';
 }
 
 function loaded () {
@@ -38,12 +44,20 @@ function loaded () {
       x[0].style.top = 0;
 
       document.getElementById('top-nav').style.display = 'block';
+      document.getElementsByTagName('h1')[4].style.paddingTop = document.getElementById('top-nav').offsetHeight + 'px';
+      for (var i = 0; i < document.getElementsByTagName('h2').length; i++) {
+        document.getElementsByTagName('h2')[i].style.paddingTop = document.getElementById('top-nav').offsetHeight + 'px';
+      }
       document.getElementById('btn-close').style.display = 'block';
     }
     else {
       x[0].style.position = "static";
       x[0].style.overflowY = "hidden";
+      for (var i = 0; i < document.getElementsByTagName('h2').length; i++) {
+        document.getElementsByTagName('h2')[i].style.paddingTop = '20px';
+      }
       document.getElementById('top-nav').style.display = 'none';
+      document.getElementsByTagName('h1')[4].style.paddingTop = '20px';
       document.getElementById('btn-close').style.display = 'none';
     }
   }

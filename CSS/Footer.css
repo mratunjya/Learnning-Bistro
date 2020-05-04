@@ -1,3 +1,8 @@
+#Footer {
+  width: 80%;
+  float: right;
+}
+
 .Information {
     width: 80%;
     margin-left: auto;
@@ -50,4 +55,11 @@ abbr {
     .love {
         font-size: 3.5vw;
     }
+}
+
+@media only screen and (max-width: 720px) {
+  #Footer {
+    width: 100%;
+    float: none;
+  }
 }
