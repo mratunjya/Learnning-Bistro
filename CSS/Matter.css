@@ -361,6 +361,10 @@ figcaption {
   border-radius: 15px;
 }
 
+.more-nav p {
+  font-size: 4vw;
+}
+
 .more-nav:hover {
   background-image: linear-gradient(to bottom , rgb(255, 255, 255), rgb(250, 250, 250));
 }
@@ -427,6 +431,10 @@ strong {
   color: #7030A0;
 }
 
+.bullet {
+  width: 4%;
+}
+
 @media only screen and (max-width: 780px) {
   .Unit {
     font-size: 3vw;
@@ -471,6 +479,14 @@ strong {
   .Chapter h2 {
     font-size: 4.5vw;
   }
+
+  .btn-more {
+    font-size: 4vw;
+  }
+
+  .bullet {
+    width: 6%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -506,5 +522,17 @@ strong {
 
   .Chapter h2 {
     font-size: 6vw;
+  }
+
+  .btn-more {
+    font-size: 5vw;
+  }
+
+  .more-nav p {
+    font-size: 6vw;
+  }
+
+  .bullet {
+    width: 10%;
   }
 }
