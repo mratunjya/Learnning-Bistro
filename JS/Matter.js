@@ -26,8 +26,19 @@ function sidenavshow () {
   document.getElementById('top-nav').style.width = '75%';
   document.getElementById('top-nav').style.marginLeft = '-2%';
 
-  document.getElementById('Footer').style.width = '80%';
+  document.getElementById('Footer').style.width = '73%';
   document.getElementById('Footer').style.float = 'right';
+}
+
+function showMoreChapter() {
+  if (document.getElementById('Get-Some-More').innerHTML == '<button type="button" name="more" onclick="showMoreChapter()" class="btn-more">Get Some More &nbsp;&nbsp;<i class="fas fa-chevron-circle-down" aria-hidden="true"></i></button>') {
+    document.getElementById('more-chapter').style.display = 'block';
+    document.getElementById('Get-Some-More').innerHTML = '<button type="button" name="less" onclick="showMoreChapter()" class="btn-more">Show Less &nbsp;&nbsp;<i class="fas fa-chevron-circle-up" aria-hidden="true"></i></button>';
+  }
+  else {
+    document.getElementById('more-chapter').style.display = 'none';
+    document.getElementById('Get-Some-More').innerHTML = '<button type="button" name="more" onclick="showMoreChapter()" class="btn-more">Get Some More &nbsp;&nbsp;<i class="fas fa-chevron-circle-down" aria-hidden="true"></i></button>';
+  }
 }
 
 function loaded () {
@@ -64,66 +75,3 @@ function loaded () {
 
   window.scrollBy(0, 1);
 }
-
-/*document.onreadystatechange = () => {
-  if (document.readyState === 'complete') {
-    x = document.getElementsByClassName('side-nav');
-    y = document.getElementsByClassName('top-nav');
-    c = document.getElementById("Introduction-to-Python");
-    h2 = document.getElementsByTagName("h2");
-    console.log(x[0].offsetTop);
-    h = x[0].offsetTop;
-    window.onscroll = function() {myFunction()};
-
-    function myFunction() {
-      if (document.body.scrollTop >= h || document.documentElement.scrollTop >= h) {
-        x[0].style.position = "fixed";
-        x[0].style.top = 0;
-
-        y[0].style.display = "block";
-        y[0].style.position = "fixed";
-        y[0].style.top = 0;
-
-        h1 = y[0].offsetHeight;
-        c.style.paddingTop = h1+"px";
-
-        h1 = h1 + 20;
-        for (var i = 0; i < h2.length; i++) {
-          h2[i].style.paddingTop = h1+"px"
-        }
-      }
-      else {
-        x[0].style.position = "static";
-        y[0].style.display = "none";
-
-        c.style.paddingTop = "0px";
-        for (var i = 0; i < h2.length; i++) {
-          h2[i].style.paddingTop = "20px"
-        }
-      }
-
-      if (window.innerWidth <= 720) {
-        a = document.getElementsByClassName('left');
-        a[0].style.display = "none";
-
-        a = document.getElementsByClassName('right');
-        a[0].style.width = "97%";
-        a[0].style.margin = "0 auto"
-
-        y[0].style.width = "100%";
-      }
-      else {
-        a = document.getElementsByClassName('left');
-        a[0].style.display = "block";
-
-        a = document.getElementsByClassName('right');
-        a[0].style.width = "73%";
-        a[0].style.margin = "0"
-
-        y[0].style.width = "77%";
-      }
-    }
-    window.scrollBy(0, 1);
-  }
-}
-*/
