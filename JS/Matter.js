@@ -12,6 +12,11 @@ function sidenavclose () {
 
   document.getElementById('Footer').style.width = '100%';
   document.getElementById('Footer').style.float = 'none';
+
+  var temp = window.location.href;
+  if (temp.includes("#")) {
+    window.location.replace(temp);
+  }
 }
 
 function sidenavshow () {
@@ -28,6 +33,11 @@ function sidenavshow () {
 
   document.getElementById('Footer').style.width = '73%';
   document.getElementById('Footer').style.float = 'right';
+
+  var temp = window.location.href;
+  if (temp.includes("#")) {
+    window.location.replace(temp);
+  }
 }
 
 function showMoreChapter() {
